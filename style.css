@@ -1,0 +1,461 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.gray_body {
+    background-color: #e9ebee;
+}
+
+/* .container-fluid {
+    padding: 0 !important;
+} */
+
+.header_banner {
+    width: 100%;
+}
+
+.logo_header {
+    padding: 8px;
+}
+
+
+/* navbar */
+
+.header_nav {
+    padding: 0px !important;
+}
+.header_nav div {
+    width: 18%;
+    margin: auto;
+    text-align: center;
+
+    display: inline-block;
+}
+.navbar_link {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(88, 88, 88);
+    font-size: 24px;
+    /* margin-right: 56px; */
+    margin-top: 30px;
+
+    text-align: center;
+
+    display: inline-block;
+    padding-bottom: 1rem;
+    position: relative;
+
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.navbar_link:hover {
+    color: #ef435f;
+}
+.navbar_link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #ef435f;
+    transition: width 0.25s ease-out;
+}
+.navbar_link:hover::before {
+    color: #ef435f;
+    width: 100%;
+}
+
+
+
+/* search */
+.wrapper {
+    width: 85%;
+    /* margin: 0rem 6rem auto; */
+    margin: 25px 0 0 30px;
+}
+
+.label {
+    font-size: .625rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: +1.3px;
+    margin-bottom: 1rem;
+}
+
+.searchBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#searchQueryInput {
+    width: 100%;
+    height: 2.8rem;
+    background: #f5f5f5;
+    outline: none;
+    border: none;
+    border-radius: 1.625rem;
+    padding: 0 3.5rem 0 1.5rem;
+    font-size: 1rem;
+}
+
+#searchQueryInput::placeholder {
+    font-size: 14px;
+}
+
+#searchQuerySubmit {
+    width: 3.5rem;
+    height: 2.8rem;
+    margin-left: -3.5rem;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#searchQuerySubmit:hover {
+    cursor: pointer;
+}
+
+.view_img {
+    width: 100%;
+}
+
+.see_more {
+    text-decoration: none;
+    color: black;
+}
+.see_more:hover {
+    color:black
+}
+
+.see_more_2 {
+    font-style: italic;
+}
+
+.body_banner {
+    width: 90%;
+    margin: 40px 0 0 10px;
+}
+
+.nav_post {
+    width: 95%;
+}
+
+.nav_post_word {
+    font-size: 13px;
+    color: #686868;
+}
+
+.nav_post_div {
+    position: absolute;
+    margin: -8px 0 0px 30px;
+}
+
+.mini_post_1 {
+    position: absolute;
+}
+
+.mini_post_2 {
+    position: absolute;
+    display: none;
+}
+
+
+/* body_navbar */
+.body_navbar {
+    position: relative;
+    border-bottom: #dddddd 1px solid;
+}
+.cal_href {
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+    text-decoration: none;
+    color: #686868;
+    margin-top: 10px;
+}
+.cal_href:hover {
+    color: #ef435f;
+}
+.bi-grid-3x3-gap-fill {
+    margin-top: 8px;
+}
+
+/* post1 */
+.body_post1 {
+    position: relative;
+    margin-top: 15px;
+}
+.post1_view_img { position: relative; }
+.infograph { position: absolute; color: #535353; margin-left: 10px; font-size: 15px; }
+.infograph p { font-size: 12px; }
+.post1_img { width: 100%; margin-top: 10px; border-radius: 0 20px 20px 20px; }
+
+.post1_buttons {
+    position: relative;
+    margin-top: -6px;
+}
+.post1_buttons2 {
+    /* position: absolute;  */
+    right: 0;
+    margin-right: 30px;
+}
+.post1_comment {
+    text-align: center;
+    font-size: 12px;
+    color: #686868;
+    margin-bottom: 3px !important;
+}
+
+.write_com {
+    width: 100%;
+    height: 35px;
+    background-color: #cecece;
+    border: none;
+    border-radius: 9px;
+}
+.write_com::placeholder {
+    color: white;
+    padding-left: 10px;
+    font-size: 12px;
+    right: 0;
+}
+
+.post1_comments  {
+    margin-top: 6px;
+    padding: 3px 3px 3px 7px;
+    font-size: 14px;
+    width: 100%;
+    background-color: #cecece;
+    border: none;
+    border-radius: 9px;
+    margin-bottom: 3px !important;
+}
+
+.more_comments {
+    color: #8f8f8f;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
+.more_comments:hover {
+    color: #8f8f8f; 
+}
+
+.post2 {
+    border: 2px solid #cecece;
+    background-color: white;
+    border-radius: 0px 15px 15px 15px;
+    padding: 14px 10px 0px 14px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.body_post2 {
+    margin-top: 10px;
+}
+.body_post3 { margin-top: 50px; }
+.video {
+    border-radius: 0px 15px 15px 15px;
+    margin-top: 10px;
+}
+.body_post3 .post1_buttons {
+    margin-top: -12px;
+}
+.video_text {
+    position: absolute; 
+    bottom: 30px;
+    right: 20px;
+}
+.video_img {
+    width: 30px;
+    border-radius: 5px;
+}
+.video_span {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.body_post4 {
+    margin-top: 50px;
+}
+.body_post4 .post1_buttons {
+    margin-top: -12px;
+}
+.body_post5 { margin-top: 50px; }
+
+
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1230px) {
+    .navbar_link {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .logo_header {
+        padding: 6px;
+        width: 70px;
+    }
+    .write_com { height: 25px; }
+    .write_com::placeholder { font-size: 10px; }
+    .post1_comments { font-size: 10px; }
+    .more_comments { font-size: 10px; margin-top: -10px; }
+
+    #searchQueryInput {
+        width: 200% !important;
+    }
+
+    .wrapper {
+        width: 85%;
+        margin: 12px 0 0 0px;
+    }
+
+    .navbar_link {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .left_nav {
+        font-size: 12px;
+    }
+
+    
+    .mini_post_2 {
+        font-size: 10px;
+    }
+
+    .mini_post_img {
+        width: 30px;
+    }
+    .phone_number {
+        font-size: 10px;
+    }
+    .message {
+        font-size: 8px;
+    }
+    .maps_pin {
+        font-size: 8px;
+    }
+    .bi-telephone-fill { font-size: 8px; }
+    .bi-envelope-fill { font-size: 8px; }
+    .bi-pin-map-fill { font-size: 8px; }
+    .nav_post_img { width: 30px; }
+    .nav_post_word { font-size: 10px; }
+    .nav_post_div { margin-left: 15px; }
+
+    .cal_href { font-size: 10px; }
+    .post1_view_img { width: 30px; }
+    .infograph { font-size: 11px !important; }
+    .infograph p { font-size: 10px !important; }
+    .bi-grid-3x3-gap-fill { margin-top: 4px; }
+    .post1_buttons2 img { width: 30px; }
+    .post1_comment { font-size: 10px; }
+    .post2 { font-size: 10px; }
+}
+
+
+/* calendar */
+.datepicker-toggle {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 16px;
+}
+.datepicker-toggle-button {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/graph_front/img/calendar.png');
+}
+.datepicker-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.datepicker-input::-webkit-calendar-picker-indicator {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+@media screen and (max-width : 767px) {
+
+    .header_banner {
+        /* padding: 5px 5px 0 5px !important; */
+        padding: 0px !important;
+    }
+
+    .logo_header {
+        padding: 5px 0px 0px 10px;
+        width: 60px;
+    }
+
+    .header_nav {
+        position: fixed;
+        bottom: 0;
+        background-color: #e9ebee;
+        height: 50px;
+        z-index: 100;
+    }
+
+    .header_nav div a {
+        margin-top: 11px;
+    }
+
+    .navbar_link {
+        font-size: 14px;
+    }
+
+    .wrapper {
+        width: 70%;
+        margin: 5px 0 0 70px;
+    }
+
+    .left_nav {
+        display: none;
+    }
+
+    .right_nav {
+        display: none;
+    }
+    .cal_href {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width : 1500px) {
+    .mini_post_1 {
+        display: none;
+    }
+    .mini_post_2 {
+        display: inline;
+    }
+}
